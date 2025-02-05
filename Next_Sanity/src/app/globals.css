@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+/*Hero Section*/
+.about-container{
+    background-color: #FBEBB5;
+
+}
+
+
+
+/*Add To Basket Button*/
+.cart-btn{
+    background-color: #E3B25A;
+
+}
+
+
+
+/*New Arrival Section*/
+.sec_04{
+  background-color: #FBEBB5;
+}
+
+
+
+/*View Detail Button*/
+.prodetail-btn{
+    background-color: #E3B25A;
+
+}
+
+
+
+/*Pagination Button*/
+.pagination_btn{
+    background-color: #FBEBB5;
+
+}
+
+
+
+/*Tricker Button*/
+.tricker{
+  background-color: #FAF4F4;
+}
